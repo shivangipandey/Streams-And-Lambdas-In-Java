@@ -45,6 +45,16 @@ import java.util.stream.Stream;
  *
  * @Infinite-Streams : check method - infiniteStream()
  *
+ * @FunctionalInterface : Functional interfaces restricts interfaces to allow the creation of a single abstract method.
+ * Which is known as target method. When method reference is passed, this target method will be invoked.
+ *  -> Examples :
+ *             - Supplier<T> : target method -> T get() -> gets the result
+ *             - Consumer<T> : target method -> void accept(T t) -> performs the operation on the given arguement
+ *             - Funtion<T,R> : target method ->  R apply(T t); -> Applies the function and transform T to R.
+ *             - Predicate<T> : target method -> boolean test(T t); -> Evaluates this predicate on the given argument.
+ *                                                                     and returns true if the given arguement matches the predicate.
+ *
+ *
  */
 public class StreamsDepth {
 
